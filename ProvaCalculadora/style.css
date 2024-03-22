@@ -1,0 +1,45 @@
+.calculadora {
+    width: 300px; 
+    margin: 0 auto; /* centralizando a calculadora  */
+    background-color: #7E6AD2; /* Cor de fundo */
+}
+
+.linha {
+    display: flex;
+}
+
+button {
+    width: 70px; /*  largura dos botões  */
+    height: 70px; /* altura dos botões*/
+    border-radius: 5px;
+    border: none;
+    background-color: #A79CF1; /* Cor dos botões */
+    margin: 2px; 
+    color: #FFFFFF; /* Cor do texto nos botões */
+}
+
+button:hover {
+    background-color: #8C7BD4; /* Cores da calculadora */
+}
+
+button:active {
+    background-color: #6A54A8; 
+    transform: translateY(1px);
+}
+
+.operador {
+    background-color: #F2788D; 
+}
+
+.igual {
+    background-color: #5A49B0; 
+}
+
+.display {
+    display: flex;
+    justify-content: end;
+    height: 30px;
+    margin-right: 5px;
+    background-color: #9D8FF5; /* Cor de fundo do painel */
+    color: #FFFFFF; /* Cor do texto no painel */
+}
